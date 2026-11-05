@@ -28,7 +28,7 @@ export default function About() {
         title="About Us"
         lead="A Gurugram-based team for construction, renovation and finishing work."
         breadcrumbs={crumbs}
-        image="/assets/about/about-hero.svg"
+        image="/assets/about/about-hero.jpg"
       />
 
       <section className="section">
@@ -59,7 +59,7 @@ export default function About() {
           </div>
           <div className="split-media">
             <Reveal variant="clip">
-              <img src="/assets/about/about-team.svg" alt="Our team on a construction site in Gurugram" loading="lazy" width="720" height="560" />
+              <img src="/assets/about/about-team.jpg" alt="Our craftsman cutting wall moulding on site" loading="lazy" width="720" height="560" />
             </Reveal>
           </div>
         </div>

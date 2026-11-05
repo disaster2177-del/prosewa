@@ -105,7 +105,7 @@ const services = [
     title: 'Home Renovation & Remodeling',
     icon: 'Hammer',
     galleryCategory: 'renovation',
-    image: '/assets/services/home-renovation.svg',
+    image: '/assets/services/home-renovation.jpg',
     imageAlt: 'Living room being renovated with new flooring and freshly plastered walls',
     summary:
       'Renovations and layout changes that update older homes and make better use of the space.',
@@ -151,7 +151,7 @@ const services = [
     title: 'Interior Improvement & Finishing',
     icon: 'PaintRoller',
     galleryCategory: 'interiors',
-    image: '/assets/services/interior-finishing.svg',
+    image: '/assets/services/interior-finishing.jpg',
     imageAlt: 'Finished modern interior with a feature wall, wooden panelling and ceiling lights',
     summary:
       'Finishing work that gives interiors a refined look: wall treatments, panelling, carpentry and detailing.',
@@ -289,7 +289,7 @@ const services = [
     title: 'Painting, Plastering & Waterproofing',
     icon: 'Droplets',
     galleryCategory: 'painting',
-    image: '/assets/services/painting-waterproofing.svg',
+    image: '/assets/services/painting-waterproofing.jpg',
     imageAlt: 'Freshly painted exterior wall with smooth plaster finish',
     summary:
       'Surface preparation, plastering, interior and exterior painting, and waterproofing against seepage.',
@@ -335,7 +335,7 @@ const services = [
     title: 'False Ceiling & Wall Finishing',
     icon: 'Layers',
     galleryCategory: 'interiors',
-    image: '/assets/services/false-ceiling.svg',
+    image: '/assets/services/false-ceiling.jpg',
     imageAlt: 'Gypsum false ceiling with cove lighting in a modern living room',
     summary:
       'Gypsum and POP false ceilings, cove lighting and decorative wall finishes that complete a room.',
@@ -427,7 +427,7 @@ const services = [
     title: 'Commercial Property Improvement',
     icon: 'Building2',
     galleryCategory: 'construction',
-    image: '/assets/services/commercial-improvement.svg',
+    image: '/assets/services/commercial-improvement.jpg',
     imageAlt: 'Renovated commercial office space with glass partitions and ceiling grid',
     summary:
       'Fit-outs, repairs and upgrades for shops, offices and commercial buildings, planned around your business.',

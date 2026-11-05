@@ -55,7 +55,7 @@ export default function Home() {
           <div className="split-media">
             <Reveal variant="clip">
               {/* Replace with a photo of your team or a site in progress */}
-              <img src="/assets/about/about-team.svg" alt="Construction team reviewing drawings on site" loading="lazy" width="720" height="560" />
+              <img src="/assets/about/about-team.jpg" alt="Our craftsman cutting wall moulding on site" loading="lazy" width="720" height="560" />
             </Reveal>
           </div>
           <Reveal className="split-content" variant="right" delay={150}>

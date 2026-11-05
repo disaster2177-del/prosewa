@@ -13,9 +13,9 @@ export default function Hero() {
   const mediaRef = useParallax(0.3);
   return (
     <section className="hero" aria-labelledby="hero-title">
-      {/* Replace /assets/hero/hero-home.svg with your best project photo (e.g. hero-home.webp, ~1920px wide). */}
+      {/* Replace /assets/hero/hero-home.jpg with your best project photo (e.g. hero-home.webp, ~1920px wide). */}
       <div className="hero-media parallax" ref={mediaRef}>
-        <img className="hero-bg" src="/assets/hero/hero-home.svg" alt="" width="1920" height="1080" fetchpriority="high" />
+        <img className="hero-bg" src="/assets/hero/hero-home.jpg" alt="" width="1920" height="1080" fetchpriority="high" />
       </div>
       <div className="hero-overlay" aria-hidden="true" />
 
