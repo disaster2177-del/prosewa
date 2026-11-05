@@ -52,7 +52,15 @@ export default function Footer() {
             {hasPhone && (
               <li>
                 <Phone size={18} aria-hidden="true" />
-                <a href={telLink}>{siteConfig.phoneDisplay}</a>
+                <span>
+                  <a href={telLink}>{siteConfig.phoneDisplay}</a>
+                  {siteConfig.contactPerson && (
+                    <>
+                      <br />
+                      {siteConfig.contactPerson}
+                    </>
+                  )}
+                </span>
               </li>
             )}
             {hasEmail && (

@@ -30,18 +30,21 @@ const siteConfig = {
   // ------------------------------------------------------------
 
   // Phone number shown to visitors, e.g. '+91 98765 43210'
-  phoneDisplay: '', // TODO
+  phoneDisplay: '+91 95404 33898',
 
   // Same number in international format, digits only with +, e.g. '+919876543210'
   // Used for tel: links.
-  phoneE164: '', // TODO
+  phoneE164: '+919540433898',
+
+  // Person customers speak to (shown next to the phone number).
+  contactPerson: 'Vishal Lakhera',
 
   // Business email address, e.g. 'info@yourdomain.com'
   email: '', // TODO
 
   // WhatsApp number in international format WITHOUT '+', e.g. '919876543210'.
   // Leave empty to hide the WhatsApp button entirely.
-  whatsappNumber: '', // optional
+  whatsappNumber: '919540433898',
 
   // Pre-filled WhatsApp message.
   whatsappMessage: 'Hello, I would like to discuss an interior / renovation project.',

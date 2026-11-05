@@ -32,6 +32,7 @@ export default function Contact() {
               <Phone size={28} aria-hidden="true" />
               <h2 className="h4">Call us</h2>
               <p>{siteConfig.phoneDisplay}</p>
+              {siteConfig.contactPerson && <p className="muted">Ask for {siteConfig.contactPerson}</p>}
               {siteConfig.businessHours && <p className="muted"><Clock size={14} aria-hidden="true" /> {siteConfig.businessHours}</p>}
             </a>
           )}
