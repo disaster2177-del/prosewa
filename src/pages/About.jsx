@@ -19,14 +19,14 @@ export default function About() {
   return (
     <>
       <SEO
-        title="About Us: Construction & Renovation Team in Gurugram"
-        description={`Learn about ${siteConfig.brandName}, a Gurugram team providing civil construction, home construction, renovation and finishing services for homes and commercial properties.`}
+        title="About Us: Interior & Renovation Team in Gurugram, Delhi NCR & Noida"
+        description={`Learn about ${siteConfig.brandName}, a Gurugram team providing home interiors, renovation and finishing services across Delhi NCR and Noida.`}
         path="/about"
         jsonLd={breadcrumbSchema(crumbs)}
       />
       <PageHeader
         title="About Us"
-        lead="A Gurugram-based team for construction, renovation and finishing work."
+        lead="A Gurugram-based team for interiors, renovation and finishing work across Delhi NCR."
         breadcrumbs={crumbs}
         image="/assets/about/about-hero.jpg"
       />
@@ -38,13 +38,13 @@ export default function About() {
             <h2>Focused on doing the work properly</h2>
             {/* TODO: replace these paragraphs with your own story */}
             <p>
-              {siteConfig.brandName} works on residential construction, renovation, finishing and civil-related
-              services in {siteConfig.city}, {siteConfig.region}. We also take on improvement work for shops,
-              offices and other commercial properties.
+              {siteConfig.brandName} works on home interiors, renovation and finishing in Gurugram, Delhi NCR
+              and Noida: wall moulding, PVC panels, louvers, wallpaper, glass work, false ceilings and wooden
+              flooring. We also take on interior work for shops, offices and other commercial spaces.
             </p>
             <p>
               Our approach is simple: understand what the client needs, agree the scope clearly, and carry out
-              the work with care, from the structure to the last coat of paint.
+              the work with care, from the first measurement to the last coat of paint.
             </p>
             <h3>Our work approach</h3>
             <p>

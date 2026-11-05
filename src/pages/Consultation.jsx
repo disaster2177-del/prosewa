@@ -14,8 +14,8 @@ export default function Consultation() {
   return (
     <>
       <SEO
-        title="Get a Free Consultation: Construction & Renovation in Gurugram"
-        description="Request a free consultation for civil construction, home construction, renovation or finishing work in Gurugram. Share your phone, email and project details."
+        title="Get a Free Consultation: Interiors & Renovation in Gurugram, Delhi NCR & Noida"
+        description="Request a free consultation for moulding, panelling, wallpaper, glass, ceiling, flooring or renovation work in Gurugram, Delhi NCR and Noida. Share your phone, email and project details."
         path="/consultation"
         jsonLd={breadcrumbSchema(crumbs)}
       />

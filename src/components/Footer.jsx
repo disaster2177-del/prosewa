@@ -13,8 +13,8 @@ export default function Footer() {
         <div className="footer-brand">
           <Logo light />
           <p>
-            Civil construction, home construction, renovation and finishing services for homes and
-            commercial properties in {siteConfig.city}, {siteConfig.region}.
+            Home interiors, renovation and finishing services for homes, offices and shops in Gurugram,
+            Delhi NCR and Noida.
           </p>
           <Link to="/consultation" className="btn btn-primary btn-sm">
             Get Free Consultation
@@ -63,15 +63,15 @@ export default function Footer() {
             )}
             <li>
               <MapPin size={18} aria-hidden="true" />
-              <span>
+              <a href={siteConfig.mapUrl || undefined} target="_blank" rel="noopener noreferrer">
                 {siteConfig.streetAddress && (
                   <>
                     {siteConfig.streetAddress}
                     <br />
                   </>
                 )}
-                {siteConfig.city}, {siteConfig.region}, {siteConfig.country}
-              </span>
+                {siteConfig.city}, {siteConfig.region} {siteConfig.postalCode}
+              </a>
             </li>
             {siteConfig.businessHours && (
               <li>
@@ -105,6 +105,9 @@ export default function Footer() {
             </li>
             <li>
               <Link to="/terms">Terms</Link>
+            </li>
+            <li>
+              <Link to="/photo-credits">Photo Credits</Link>
             </li>
           </ul>
         </div>

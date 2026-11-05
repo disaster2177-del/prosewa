@@ -25,6 +25,7 @@ const pages = [
   { path: '/contact', priority: '0.7', freq: 'yearly' },
   { path: '/privacy-policy', priority: '0.2', freq: 'yearly' },
   { path: '/terms', priority: '0.2', freq: 'yearly' },
+  { path: '/photo-credits', priority: '0.1', freq: 'yearly' },
 ];
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>

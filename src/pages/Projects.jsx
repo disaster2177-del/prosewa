@@ -15,12 +15,12 @@ export default function Projects() {
   return (
     <>
       <SEO
-        title="Our Projects: Construction & Renovation Work in Gurugram"
-        description="Browse construction, renovation, flooring, interior finishing and painting projects in Gurugram, with photos, videos and project details."
+        title="Our Projects: Interior & Renovation Work in Gurugram, Delhi NCR & Noida"
+        description="Browse wall moulding, panelling, wallpaper, glass, false ceiling, flooring and renovation projects in Gurugram, Delhi NCR and Noida, with photos, videos and project details."
         path="/projects"
         jsonLd={breadcrumbSchema(crumbs)}
       />
-      <PageHeader title="Our Projects" lead="A look at construction, renovation and finishing work we have carried out." breadcrumbs={crumbs} />
+      <PageHeader title="Our Projects" lead="A look at interior, renovation and finishing work we have carried out." breadcrumbs={crumbs} />
       <section className="section">
         <div className="container">
           <div className="filter-bar" role="group" aria-label="Filter projects by category">

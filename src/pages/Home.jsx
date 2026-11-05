@@ -22,8 +22,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Home Improvement & Civil Construction in Gurugram"
-        description="Professional home improvement, civil construction, renovation, flooring, painting and finishing services in Gurugram, Haryana. Explore our projects and request a consultation."
+        title="Home Interiors & Renovation in Gurugram, Delhi NCR & Noida"
+        description="Wall moulding, PVC panels, louvers, wallpaper, glass work, false ceilings, wooden flooring and renovation in Gurugram, Delhi NCR and Noida. Explore our projects and request a free consultation."
         path="/"
         jsonLd={[businessSchema(), faqSchema(faqs)]}
       />
@@ -36,8 +36,8 @@ export default function Home() {
           <SectionHeading
             id="services-title"
             eyebrow="What We Do"
-            title="Construction, renovation & finishing services"
-            text="One team for the structure, the services and the finishes, for homes and commercial properties across Gurugram."
+            title="Interior, renovation & finishing services"
+            text="One team for walls, ceilings, floors and finishes, for homes, offices and shops across Gurugram, Delhi NCR and Noida."
           />
           <div className="card-grid">
             {services.map((s, i) => (
@@ -60,16 +60,16 @@ export default function Home() {
           </div>
           <Reveal className="split-content" variant="right" delay={150}>
             <p className="eyebrow">About Us</p>
-            <h2 id="about-intro-title">Building and improving homes <em>across Gurugram</em></h2>
+            <h2 id="about-intro-title">Transforming homes <em>across Delhi NCR</em></h2>
             <p>
-              We are a Gurugram-based team focused on residential construction, renovation, finishing and
-              civil-related work, along with improvements for commercial properties. We bring civil, services
-              and finishing work together under one coordinated plan.
+              We are a Gurugram-based interiors team serving Delhi NCR and Noida. From a single feature wall to a
+              full home makeover, we bring moulding, panelling, wallpaper, glass, ceilings, flooring and
+              painting together under one coordinated plan.
             </p>
             <ul className="check-list">
-              <li><CheckCircle2 size={20} aria-hidden="true" /> Structural, civil and site work</li>
-              <li><CheckCircle2 size={20} aria-hidden="true" /> Complete home construction and renovation</li>
-              <li><CheckCircle2 size={20} aria-hidden="true" /> Flooring, painting, ceilings and interior finishing</li>
+              <li><CheckCircle2 size={20} aria-hidden="true" /> Wall moulding, PVC panels, louvers and wallpaper</li>
+              <li><CheckCircle2 size={20} aria-hidden="true" /> Glass and mirror work, false ceilings and wooden flooring</li>
+              <li><CheckCircle2 size={20} aria-hidden="true" /> Complete home renovation, painting and finishing</li>
             </ul>
             <Link to="/about" className="btn btn-outline">
               More About Us <ArrowRight size={18} aria-hidden="true" />
@@ -84,7 +84,7 @@ export default function Home() {
       <section className="section" aria-labelledby="projects-title">
         <div className="container">
           <div className="section-head-row">
-            <SectionHeading id="projects-title" eyebrow="Our Projects" title="Featured work" text="A selection of construction, renovation and finishing projects." />
+            <SectionHeading id="projects-title" eyebrow="Our Projects" title="Featured work" text="A selection of interior, renovation and finishing projects." />
             <Link to="/projects" className="btn btn-outline">View All Projects</Link>
           </div>
           <div className="card-grid">

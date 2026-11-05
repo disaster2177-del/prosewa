@@ -557,3 +557,18 @@ a.contact-card:hover > svg { transform: scale(1.15) rotate(-8deg); }
   .parallax, .hero-media { transform: none !important; }
   .scroll-progress { display: none; }
 }
+
+/* Google Map embed on the Contact page */
+.map-frame { position: relative; margin-top: 1.5rem; aspect-ratio: 16 / 7; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--stone); background: var(--sand); box-shadow: var(--shadow-lg); }
+.map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+@media (max-width: 640px) { .map-frame { aspect-ratio: 4 / 5; } }
+
+/* "Design idea" label on openly licensed stock photos + credits page */
+.badge-idea { position: absolute; top: 0.6rem; left: 0.6rem; color: var(--ink); background: rgba(255, 255, 255, 0.92); }
+.idea-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; margin-top: 1.5rem; padding: 0; list-style: none; }
+.idea-grid figure { position: relative; margin: 0; border-radius: var(--radius); overflow: hidden; background: var(--sand); }
+.idea-grid img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.idea-grid figcaption { padding: 0.6rem 0.8rem; font-size: 0.85rem; background: var(--white); }
+.credits-list { list-style: none; padding: 0; display: grid; gap: 1rem; }
+.credits-list li { display: flex; gap: 1rem; align-items: flex-start; }
+.credits-list img { width: 96px; height: 72px; object-fit: cover; border-radius: var(--radius-sm); flex: none; }

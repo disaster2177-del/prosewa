@@ -17,7 +17,7 @@ export default function Terms() {
           <h2>Quotations and work</h2>
           <p>Any project scope, pricing and timelines are agreed separately in writing after a consultation and, where needed, a site visit.</p>
           <h2>Images and media</h2>
-          <p>Project photos and videos on this website are the property of {siteConfig.brandName} or used with permission and may not be reused without consent.</p>
+          <p>Project photos and videos on this website are the property of {siteConfig.brandName} and may not be reused without consent. Photos marked “Design idea” are openly licensed images by other photographers; see the Photo Credits page for their licences.</p>
           <h2>Contact</h2>
           <p>For questions about these terms, please reach us through the Contact page.</p>
         </div>

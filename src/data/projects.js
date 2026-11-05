@@ -43,14 +43,20 @@
  *   isSample      true → shows a small "Sample" label. DELETE samples or set false when using real projects.
  */
 
+import ideas from './ideas.js';
+
 export const GALLERY_CATEGORIES = [
   { id: 'all', label: 'All' },
-  { id: 'civil', label: 'Civil Work' },
-  { id: 'construction', label: 'Construction' },
+  { id: 'moulding', label: 'Moulding' },
+  { id: 'pvc-panels', label: 'PVC Panels' },
+  { id: 'louvers', label: 'Louvers' },
+  { id: 'wallpaper', label: 'Wallpaper' },
+  { id: 'glass', label: 'Glass & Mirror' },
+  { id: 'false-ceiling', label: 'False Ceiling' },
+  { id: 'flooring', label: 'Wooden Flooring' },
+  { id: 'painting', label: 'Painting' },
   { id: 'renovation', label: 'Renovation' },
   { id: 'interiors', label: 'Interiors' },
-  { id: 'flooring', label: 'Flooring' },
-  { id: 'painting', label: 'Painting & Finishing' },
   { id: 'before-after', label: 'Before & After' },
 ];
 
@@ -59,8 +65,8 @@ const projects = [
     id: 1,
     slug: 'wall-moulding-panelling',
     title: 'Wall Moulding & Panelling',
-    category: 'interiors',
-    serviceSlug: 'interior-finishing',
+    category: 'moulding',
+    serviceSlug: 'moulding-work',
     location: '',
     description:
       'Classic wall moulding and frame panelling that turns plain walls into elegant feature walls.',
@@ -138,7 +144,7 @@ const projects = [
     id: 4,
     slug: 'false-ceiling-cove-lighting',
     title: 'False Ceiling with Cove Lighting',
-    category: 'interiors',
+    category: 'false-ceiling',
     serviceSlug: 'false-ceiling',
     location: '',
     description:
@@ -159,8 +165,8 @@ const projects = [
     id: 5,
     slug: 'mirror-decorative-wall-panels',
     title: 'Mirror & Decorative Wall Panels',
-    category: 'interiors',
-    serviceSlug: 'commercial-improvement',
+    category: 'glass',
+    serviceSlug: 'glass-work',
     location: '',
     description:
       'Decorative 3D wall panels with mirror inserts for homes, showrooms and commercial spaces.',
@@ -184,8 +190,8 @@ const projects = [
     id: 6,
     slug: 'bedroom-feature-walls',
     title: 'Bedroom Feature Walls',
-    category: 'interiors',
-    serviceSlug: 'interior-finishing',
+    category: 'wallpaper',
+    serviceSlug: 'wallpaper',
     location: '',
     description:
       'Bedroom feature walls with wallpaper, fluted panels and backlit headboard walls.',
@@ -242,6 +248,15 @@ export const isEmbedVideo = (url = '') => /youtube\.com|youtu\.be|vimeo\.com/.te
  */
 export const getGalleryItems = () => {
   const items = [];
+  const ideaItems = ideas.map((d, i) => ({
+    key: `idea-${i}`,
+    type: 'image',
+    src: d.src,
+    alt: d.alt,
+    category: d.category,
+    isIdea: true,
+    credit: `Photo: ${d.author} (${d.license})`,
+  }));
   projects.forEach((p) => {
     p.galleryImages.forEach((img, i) =>
       items.push({
@@ -281,7 +296,7 @@ export const getGalleryItems = () => {
       );
     }
   });
-  return items;
+  return [...items, ...ideaItems];
 };
 
 export default projects;

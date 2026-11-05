@@ -8,7 +8,7 @@ const items = [
   { icon: ClipboardList, title: 'Planning around your requirements', text: 'Work is planned around how you use your space, your preferences and your budget range.' },
   { icon: Ruler, title: 'Attention to workmanship', text: 'We pay attention to levels, joints, alignment and the finishing details that decide the final result.' },
   { icon: FileSearch, title: 'Transparent scope discussions', text: 'Scope, materials and exclusions are discussed openly and written down before work starts.' },
-  { icon: Building, title: 'Residential & commercial support', text: 'Support for homes, builder floors, villas, shops and offices across Gurugram.' },
+  { icon: Building, title: 'Residential & commercial support', text: 'Support for homes, builder floors, villas, shops and offices across Gurugram, Delhi NCR and Noida.' },
   { icon: Handshake, title: 'Customer-focused consultation', text: 'A no-obligation first conversation to understand your project before anything is committed.' },
 ];
 

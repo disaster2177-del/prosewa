@@ -64,6 +64,7 @@ export default function Gallery({ limit, showFilters = true, initialCategory = '
                   {item.type === 'video' ? <PlayCircle size={40} /> : <Expand size={28} />}
                 </span>
                 {item.stage && <span className={`badge badge-stage is-${item.stage}`}>{item.stage}</span>}
+                {item.isIdea && <span className="badge badge-idea">Design idea</span>}
               </button>
             </li>
           ))}
@@ -127,9 +128,15 @@ function Lightbox({ items, index, onChange, onClose }) {
           )}
           <figcaption>
             <span>{item.alt}</span>
-            <Link to={`/projects/${item.projectSlug}`} onClick={onClose}>
-              View project: {item.projectTitle}
-            </Link>
+            {item.isIdea ? (
+              <Link to="/photo-credits" onClick={onClose}>
+                Design idea · {item.credit}
+              </Link>
+            ) : (
+              <Link to={`/projects/${item.projectSlug}`} onClick={onClose}>
+                View project: {item.projectTitle}
+              </Link>
+            )}
             <span className="lightbox-count">
               {index + 1} / {items.length}
             </span>

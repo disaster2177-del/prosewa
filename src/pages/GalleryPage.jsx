@@ -9,12 +9,12 @@ export default function GalleryPage() {
   return (
     <>
       <SEO
-        title="Photo & Video Gallery: Construction and Renovation in Gurugram"
-        description="Photos and videos of civil work, construction, renovation, interiors, flooring, painting and before-and-after transformations in Gurugram."
+        title="Photo Gallery: Interiors & Renovation in Gurugram, Delhi NCR & Noida"
+        description="Photos of wall moulding, PVC panels, louvers, wallpaper, glass work, false ceilings, flooring and before-and-after transformations in Gurugram, Delhi NCR and Noida."
         path="/gallery"
         jsonLd={breadcrumbSchema(crumbs)}
       />
-      <PageHeader title="Gallery" lead="Photos and videos from our construction, renovation and finishing sites." breadcrumbs={crumbs} />
+      <PageHeader title="Gallery" lead="Photos from our interior, renovation and finishing work, plus design ideas for each category." breadcrumbs={crumbs} />
       <section className="section">
         <div className="container">
           <Gallery />

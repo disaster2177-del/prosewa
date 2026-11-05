@@ -10,6 +10,7 @@ import CTASection from '../components/CTASection.jsx';
 import NotFound from './NotFound.jsx';
 import { getServiceBySlug } from '../data/services.js';
 import { projectsForService } from '../data/projects.js';
+import ideas from '../data/ideas.js';
 import siteConfig, { absoluteUrl, hasPhone, hasEmail, telLink, mailLink } from '../data/siteConfig.js';
 import { getIcon } from '../lib/icons.js';
 
@@ -35,6 +36,7 @@ export default function ServiceDetail() {
   const related = service.related.map(getServiceBySlug).filter(Boolean);
   const projects = projectsForService(service);
   const videos = projects.filter((p) => p.videoUrl);
+  const serviceIdeas = ideas.filter((d) => d.category === service.galleryCategory);
   const consultHref = `/consultation?service=${service.slug}`;
 
   const serviceSchema = {
@@ -57,7 +59,7 @@ export default function ServiceDetail() {
         image={service.image}
         jsonLd={[breadcrumbSchema(crumbs), serviceSchema, faqSchema(service.faqs)]}
       />
-      <PageHeader title={`${service.title} in Gurugram`} lead={service.summary} breadcrumbs={crumbs} image={service.image}>
+      <PageHeader title={`${service.title} in Gurugram & Delhi NCR`} lead={service.summary} breadcrumbs={crumbs} image={service.image}>
         <div className="hero-actions">
           <Link to={consultHref} className="btn btn-primary btn-lg">
             Get Free Consultation <ArrowRight size={20} aria-hidden="true" />
@@ -73,7 +75,7 @@ export default function ServiceDetail() {
       <section className="section">
         <div className="container detail-layout">
           <article className="detail-main prose">
-            <h2>About our {service.title.toLowerCase()} service</h2>
+            <h2>About our {service.title} service</h2>
             {service.intro.map((p) => <p key={p.slice(0, 24)}>{p}</p>)}
 
             <h2>Types of work we handle</h2>
@@ -98,7 +100,7 @@ export default function ServiceDetail() {
           <aside className="detail-aside" aria-label="Contact options">
             <div className="aside-card">
               <span className="aside-icon"><Icon size={26} aria-hidden="true" /></span>
-              <h2 className="h4">Discuss your {service.title.toLowerCase()} project</h2>
+              <h2 className="h4">Discuss your {service.title} project</h2>
               <p>Tell us what you need. The first consultation is free, with no obligation.</p>
               <Link to={consultHref} className="btn btn-primary btn-block">
                 <ClipboardCheck size={18} aria-hidden="true" /> Get Free Consultation
@@ -136,6 +138,29 @@ export default function ServiceDetail() {
         </section>
       )}
 
+      {serviceIdeas.length > 0 && (
+        <section className="section" aria-labelledby="svc-ideas">
+          <div className="container">
+            <h2 id="svc-ideas">Design ideas for {service.title}</h2>
+            <p className="muted">
+              Inspiration photos showing the kind of finish we can create. See{' '}
+              <Link to="/photo-credits">photo credits</Link>.
+            </p>
+            <ul className="idea-grid">
+              {serviceIdeas.map((d) => (
+                <li key={d.src}>
+                  <figure>
+                    <img src={d.src} alt={d.alt} loading="lazy" width="600" height="450" />
+                    <span className="badge badge-idea">Design idea</span>
+                    <figcaption>{d.alt}</figcaption>
+                  </figure>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
       <section className="section" aria-labelledby="svc-faq">
         <div className="container narrow">
           <h2 id="svc-faq" className="center">{service.title}: frequently asked questions</h2>
@@ -155,7 +180,7 @@ export default function ServiceDetail() {
       )}
 
       <CTASection
-        title={`Planning ${service.title.toLowerCase()} work in Gurugram?`}
+        title={`Planning ${service.title} work in Gurugram or Delhi NCR?`}
         text="Share your requirements and we will get in touch to discuss the scope and next steps."
         serviceSlug={service.slug}
       />

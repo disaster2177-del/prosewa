@@ -3,7 +3,7 @@ import { Phone, Mail, ArrowRight, MessageCircle } from 'lucide-react';
 import { hasPhone, hasEmail, hasWhatsApp, telLink, mailLink, whatsappLink } from '../data/siteConfig.js';
 
 export default function CTASection({
-  title = 'Planning a Construction or Home Renovation Project?',
+  title = 'Planning a Home Interior or Renovation Project?',
   text = 'Tell us what you have in mind. Contact our team to discuss your requirements and the next steps.',
   serviceSlug,
 }) {

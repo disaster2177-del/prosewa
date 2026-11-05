@@ -13,18 +13,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.example.com/services/civil-construction</loc>
-    <lastmod>2026-11-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.example.com/services/home-construction</loc>
-    <lastmod>2026-11-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://www.example.com/services/home-renovation</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -37,7 +25,43 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.example.com/services/kitchen-bathroom-renovation</loc>
+    <loc>https://www.example.com/services/moulding-work</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.example.com/services/pvc-panels</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.example.com/services/louvers</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.example.com/services/wallpaper</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.example.com/services/glass-work</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.example.com/services/false-ceiling</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.example.com/services/wooden-flooring</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -55,7 +79,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.example.com/services/false-ceiling</loc>
+    <loc>https://www.example.com/services/kitchen-bathroom-renovation</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -79,37 +103,43 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.example.com/projects/independent-house-structure</loc>
+    <loc>https://www.example.com/projects/wall-moulding-panelling</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.example.com/projects/builder-floor-construction</loc>
+    <loc>https://www.example.com/projects/dining-room-feature-wall</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.example.com/projects/apartment-full-renovation</loc>
+    <loc>https://www.example.com/projects/painted-wall-mural</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.example.com/projects/living-room-interior-finishing</loc>
+    <loc>https://www.example.com/projects/false-ceiling-cove-lighting</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.example.com/projects/marble-flooring-villa</loc>
+    <loc>https://www.example.com/projects/mirror-decorative-wall-panels</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.example.com/projects/exterior-repaint-waterproofing</loc>
+    <loc>https://www.example.com/projects/bedroom-feature-walls</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.example.com/projects/furniture-door-refinishing</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -149,5 +179,11 @@
     <lastmod>2026-11-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://www.example.com/photo-credits</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
   </url>
 </urlset>

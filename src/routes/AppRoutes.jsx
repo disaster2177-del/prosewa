@@ -10,6 +10,7 @@ import Consultation from '../pages/Consultation.jsx';
 import Contact from '../pages/Contact.jsx';
 import Privacy from '../pages/Privacy.jsx';
 import Terms from '../pages/Terms.jsx';
+import Credits from '../pages/Credits.jsx';
 import NotFound from '../pages/NotFound.jsx';
 
 export default function AppRoutes() {
@@ -26,6 +27,7 @@ export default function AppRoutes() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/privacy-policy" element={<Privacy />} />
       <Route path="/terms" element={<Terms />} />
+      <Route path="/photo-credits" element={<Credits />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

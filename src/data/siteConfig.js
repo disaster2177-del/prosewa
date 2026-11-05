@@ -19,7 +19,7 @@ const siteConfig = {
   brandName: 'PROSEWA',
 
   // Short tagline under the logo / in the footer.
-  tagline: 'Home Improvement & Civil Construction',
+  tagline: 'Home Interiors & Renovation',
 
   // Your live production domain, without a trailing slash.
   // Used for canonical URLs, Open Graph tags and sitemap.xml.
@@ -44,7 +44,7 @@ const siteConfig = {
   whatsappNumber: '', // optional
 
   // Pre-filled WhatsApp message.
-  whatsappMessage: 'Hello, I would like to discuss a construction / renovation project.',
+  whatsappMessage: 'Hello, I would like to discuss an interior / renovation project.',
 
   // ------------------------------------------------------------
   // LOCATION / SERVICE AREA
@@ -55,11 +55,16 @@ const siteConfig = {
   countryCode: 'IN',
 
   // Optional street address. Leave empty unless it is your real, verified address.
-  streetAddress: '',
-  postalCode: '',
+  streetAddress: 'Block B, Rajendra Park, Sector 105',
+  postalCode: '122006',
+
+  // Google Maps link and map pin coordinates for the office.
+  mapUrl: 'https://maps.app.goo.gl/zye95gi4pLvNwFBJA',
+  latitude: 28.4967297,
+  longitude: 77.0074015,
 
   // Areas served (shown in content + structured data).
-  areasServed: ['Gurugram', 'Haryana'],
+  areasServed: ['Gurugram', 'Delhi NCR', 'Noida', 'New Delhi', 'Faridabad', 'Ghaziabad'],
 
   // Optional: business hours in plain text, e.g. 'Mon–Sat, 9:00 AM – 7:00 PM'
   businessHours: '',
@@ -74,7 +79,7 @@ const siteConfig = {
   testimonials: [],
 
   // Default social-share image (1200×630 recommended).
-  ogImage: '/assets/og/og-default.png',
+  ogImage: '/assets/og/og-default.jpg',
 };
 
 /* ---------- Derived helpers (no need to edit below) ---------- */

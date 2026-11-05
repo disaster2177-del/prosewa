@@ -9,98 +9,6 @@
 
 const services = [
   {
-    slug: 'civil-construction',
-    title: 'Civil Construction',
-    icon: 'HardHat',
-    galleryCategory: 'civil',
-    image: '/assets/services/civil-construction.svg',
-    imageAlt: 'Reinforced concrete columns and beams under construction at a residential site',
-    summary:
-      'Structural and civil work, from foundations and RCC frames to boundary walls and site development.',
-    metaTitle: 'Civil Construction Contractor in Gurugram',
-    metaDescription:
-      'Civil construction services in Gurugram: foundations, RCC structures, brickwork, boundary walls and site development. Discuss your project and request a consultation.',
-    intro: [
-      'Civil work sets the strength and lifespan of a building. We handle the structural side of residential and small commercial projects in Gurugram: excavation, foundations, RCC columns, beams and slabs, masonry and the site work around them.',
-      'We work from your approved structural drawings and coordinate with your architect or structural engineer, so the work on site follows the design. If you are still at the planning stage, we can talk through the scope and the steps involved before any work begins.',
-    ],
-    workTypes: [
-      'Excavation and foundation work',
-      'RCC columns, beams and slabs',
-      'Brick and block masonry',
-      'Boundary walls and retaining walls',
-      'Staircases, lintels and chajjas',
-      'Site levelling, drainage and paving',
-    ],
-    requirements: [
-      'Plot location and approximate size',
-      'Approved architectural / structural drawings, if available',
-      'Number of floors planned',
-      'Preferred start date and any site-access constraints',
-    ],
-    faqs: [
-      {
-        q: 'Do you work from my architect’s structural drawings?',
-        a: 'Yes. Structural work should follow drawings prepared by a qualified engineer. We review them with you and coordinate with your architect or engineer during execution.',
-      },
-      {
-        q: 'Can you take on only part of the civil work?',
-        a: 'Yes. Tell us which stages you need, for example only the foundation and frame or only masonry, and we will discuss whether it fits our scope.',
-      },
-      {
-        q: 'How is a civil work estimate prepared?',
-        a: 'Estimates depend on the drawings, quantities, material specifications and site conditions. We prepare a quotation after understanding these, usually following a site visit.',
-      },
-    ],
-    related: ['home-construction', 'painting-waterproofing', 'commercial-improvement'],
-  },
-  {
-    slug: 'home-construction',
-    title: 'Complete Home Construction',
-    icon: 'Home',
-    galleryCategory: 'construction',
-    image: '/assets/services/home-construction.svg',
-    imageAlt: 'Newly built two-storey residential house with a modern facade',
-    summary:
-      'End-to-end construction of independent homes and builder floors, from the structure to the final finishes.',
-    metaTitle: 'Home Construction Services in Gurugram',
-    metaDescription:
-      'Complete home construction in Gurugram, from structure and masonry to plumbing, electrical and finishing. Share your plans and request a free consultation.',
-    intro: [
-      'Building a home involves many trades working in sequence: civil, plumbing, electrical, flooring, carpentry, painting and more. We manage these stages together, so you have one point of contact instead of coordinating several contractors yourself.',
-      'We begin by understanding your plot, your drawings, your budget range and how you plan to use each floor. The scope, materials and stages are then discussed and agreed in writing before work starts.',
-    ],
-    workTypes: [
-      'Independent houses and villas',
-      'Builder floors and multi-storey homes',
-      'Structure, masonry and plastering',
-      'Concealed electrical and plumbing',
-      'Flooring, tiling, doors and windows',
-      'Painting and final finishing',
-    ],
-    requirements: [
-      'Plot location, size and orientation',
-      'Architectural plans or a rough layout of rooms and floors',
-      'Material and finish preferences',
-      'Approximate budget range and target timeline',
-    ],
-    faqs: [
-      {
-        q: 'Do you help with building drawings and approvals?',
-        a: 'Building plan approvals and drawings are prepared by licensed architects and engineers. We can work with your chosen professional and build to the approved plans.',
-      },
-      {
-        q: 'Can I choose my own materials and brands?',
-        a: 'Yes. Material choices are discussed during scoping and recorded in the quotation so both sides are clear on the specification.',
-      },
-      {
-        q: 'How long does it take to build a house?',
-        a: 'Timelines depend on the built-up area, the number of floors, the design and material availability. We give an estimated schedule once the scope is finalised.',
-      },
-    ],
-    related: ['civil-construction', 'interior-finishing', 'electrical-plumbing'],
-  },
-  {
     slug: 'home-renovation',
     title: 'Home Renovation & Remodeling',
     icon: 'Hammer',
@@ -109,9 +17,9 @@ const services = [
     imageAlt: 'Living room being renovated with new flooring and freshly plastered walls',
     summary:
       'Renovations and layout changes that update older homes and make better use of the space.',
-    metaTitle: 'Home Renovation & Remodeling in Gurugram',
+    metaTitle: 'Home Renovation & Remodeling in Gurugram, Delhi NCR & Noida',
     metaDescription:
-      'Home renovation and remodeling in Gurugram: layout changes, room upgrades, flooring, finishes and full-home refurbishments. Request a consultation today.',
+      'Home renovation and remodeling in Gurugram, Delhi NCR and Noida: layout changes, room upgrades, flooring, finishes and full-home refurbishments. Request a consultation today.',
     intro: [
       'Renovation is about improving the home you already have. That can mean a full refurbishment of an older flat or house, or focused upgrades to a few rooms, finishes or fittings.',
       'Because renovation often happens in occupied homes or societies with rules, we plan the sequence of work, debris removal and working hours with you in advance. We inspect the existing structure, plumbing and wiring first, so hidden problems are found early rather than midway through.',
@@ -144,7 +52,7 @@ const services = [
         a: 'Debris handling is discussed and included in the scope so the site is managed in line with your society’s requirements.',
       },
     ],
-    related: ['interior-finishing', 'kitchen-bathroom-renovation', 'flooring-tiling'],
+    related: ['interior-finishing', 'moulding-work', 'wooden-flooring'],
   },
   {
     slug: 'interior-finishing',
@@ -155,9 +63,9 @@ const services = [
     imageAlt: 'Finished modern interior with a feature wall, wooden panelling and ceiling lights',
     summary:
       'Finishing work that gives interiors a refined look: wall treatments, panelling, carpentry and detailing.',
-    metaTitle: 'Interior Finishing Services in Gurugram',
+    metaTitle: 'Interior Finishing Services in Gurugram, Delhi NCR & Noida',
     metaDescription:
-      'Interior improvement and finishing in Gurugram: wall panelling, carpentry, feature walls, wardrobes and detailing for homes and offices. Request a consultation.',
+      'Interior improvement and finishing in Gurugram, Delhi NCR and Noida: wall panelling, carpentry, feature walls, wardrobes and detailing for homes and offices. Request a consultation.',
     intro: [
       'Finishing determines how a space looks and feels day to day. We focus on clean lines, careful joinery and finishes that are practical to maintain.',
       'Whether you are completing a new home or refreshing an existing one, we help turn your ideas, reference images or your designer’s drawings into finished work on site.',
@@ -190,66 +98,342 @@ const services = [
         a: 'Depending on the item, carpentry may be built on site or fabricated off site and installed. We explain the approach for each item during scoping.',
       },
     ],
-    related: ['false-ceiling', 'painting-waterproofing', 'home-renovation'],
+    related: ['moulding-work', 'pvc-panels', 'false-ceiling'],
   },
   {
-    slug: 'kitchen-bathroom-renovation',
-    title: 'Kitchen & Bathroom Renovation',
-    icon: 'Bath',
-    galleryCategory: 'renovation',
-    image: '/assets/services/kitchen-bathroom-renovation.svg',
-    imageAlt: 'Renovated bathroom with large-format wall tiles and a glass shower partition',
+    slug: 'moulding-work',
+    title: 'Wall Moulding Work',
+    icon: 'Frame',
+    galleryCategory: 'moulding',
+    image: '/assets/services/moulding-work.jpg',
+    imageAlt: 'Living room wall finished with full-height decorative moulding frames',
     summary:
-      'Kitchens and bathrooms rebuilt with proper waterproofing, plumbing and durable finishes.',
-    metaTitle: 'Kitchen & Bathroom Renovation in Gurugram',
+      'Classic wall moulding and frame panelling that turns plain walls into elegant feature walls.',
+    metaTitle: 'Wall Moulding Work in Gurugram, Delhi NCR & Noida',
     metaDescription:
-      'Kitchen and bathroom renovation in Gurugram: waterproofing, plumbing, tiling, sanitaryware and modular kitchen fit-outs. Discuss your project with us.',
+      'Wall moulding and panelling in Gurugram, Delhi NCR and Noida: frame moulding, wainscoting, cornices and feature walls for living rooms, bedrooms and dining areas.',
     intro: [
-      'Kitchens and bathrooms are the most-used and most technical rooms in a home. A good renovation gets the parts you cannot see right first: plumbing lines, slopes, drainage and waterproofing. Only then come the tiles and fittings.',
-      'We plan the layout with you, including the positions of fixtures, outlets and storage, and then complete the civil, plumbing, electrical and finishing work in the right order.',
+      'Moulding adds depth, shadow lines and a premium finish to an ordinary wall. We design and install frame moulding, wainscoting and cornice profiles for living rooms, bedrooms, dining areas and entrance lobbies.',
+      'Every layout is marked out to suit your wall size, switchboards, doors and furniture, so the frames look balanced. After fixing, the joints are filled, sanded and painted for a seamless finish.',
     ],
     workTypes: [
-      'Complete bathroom rebuilds',
-      'Bathroom waterproofing and leak repair',
-      'Wall and floor tiling',
-      'Sanitaryware and CP fitting installation',
-      'Kitchen platform, sink and backsplash work',
-      'Modular kitchen installation support',
+      'Frame and box moulding on walls',
+      'Wainscoting and half-wall panelling',
+      'Cornice and ceiling border moulding',
+      'TV and bed-back feature walls',
+      'PU, PS and wooden moulding profiles',
+      'Putty, sanding and painting of moulding',
     ],
     requirements: [
-      'Number of kitchens / bathrooms and approximate sizes',
-      'Any existing leakage or seepage issues',
-      'Preferred tiles, fittings or brands',
-      'Photos of the current space, if convenient',
+      'Rooms and walls you want to upgrade',
+      'Approximate wall sizes and ceiling height',
+      'Photos or references of designs you like',
+      'Preferred finish colour (matching or contrast)',
     ],
     faqs: [
       {
-        q: 'Why is waterproofing important in bathroom renovation?',
-        a: 'Without proper waterproofing, water can seep into walls and into ceilings below. We treat floors and wet-wall areas before tiling.',
+        q: 'Which material is used for wall moulding?',
+        a: 'We work with PU, PS (polystyrene) and wooden profiles. PU and PS are light, moisture-resistant and easy to paint; we suggest the best option for your wall and budget.',
       },
       {
-        q: 'Can I reuse my existing fittings?',
-        a: 'Fittings in good condition can often be reused. We will tell you honestly if something is better replaced.',
+        q: 'Can moulding be added to an already painted wall?',
+        a: 'Yes. The moulding is fixed on the existing wall, then joints are filled and the wall is repainted so everything looks like one finish.',
       },
       {
-        q: 'Can you change the bathroom layout?',
-        a: 'Layout changes are often possible but depend on drainage positions and the floor below. We assess this during the site visit.',
+        q: 'How long does moulding work take?',
+        a: 'A single feature wall usually takes a few days including painting. A full house takes longer; we share a timeline after seeing the scope.',
       },
     ],
-    related: ['electrical-plumbing', 'flooring-tiling', 'home-renovation'],
+    related: ['pvc-panels', 'wallpaper', 'painting-waterproofing'],
+  },
+  {
+    slug: 'pvc-panels',
+    title: 'PVC Wall & Ceiling Panels',
+    icon: 'PanelsTopLeft',
+    galleryCategory: 'pvc-panels',
+    image: '/assets/ideas/pvc-panels/pvc-panels-01.jpg',
+    imageAlt: 'Dining wall finished with bold 3D wall panels',
+    summary:
+      'Water-resistant, low-maintenance PVC panels for feature walls, ceilings, bathrooms and balconies.',
+    metaTitle: 'PVC Wall Panels & PVC Ceiling in Gurugram, Delhi NCR & Noida',
+    metaDescription:
+      'PVC wall panels and PVC ceilings in Gurugram, Delhi NCR and Noida: marble-finish sheets, 3D panels and waterproof ceilings for homes, offices and shops.',
+    intro: [
+      'PVC panels are a quick, clean way to give walls and ceilings a finished look. They resist moisture and termites, need almost no maintenance and are a good fit for damp walls, bathrooms, balconies and kitchens.',
+      'We install marble-finish PVC sheets, 3D panels and PVC ceiling strips on a proper frame or direct fixing, with matching trims and corner profiles for a neat edge.',
+    ],
+    workTypes: [
+      'PVC marble sheets for feature walls',
+      '3D and designer PVC wall panels',
+      'PVC ceiling panels for rooms and balconies',
+      'Bathroom and kitchen wall cladding',
+      'Covering damp or uneven walls',
+      'Trims, corner profiles and lighting cut-outs',
+    ],
+    requirements: [
+      'Area to be covered and approximate size',
+      'Whether the wall has damp or seepage issues',
+      'Preferred design or colour references',
+      'Light, switch and AC positions on the wall',
+    ],
+    faqs: [
+      {
+        q: 'Are PVC panels waterproof?',
+        a: 'PVC panels do not absorb water, which makes them suitable for bathrooms and damp walls. Any active leakage should still be repaired first, so we check the wall before installing.',
+      },
+      {
+        q: 'How long do PVC panels last?',
+        a: 'Good-quality panels last for many years indoors with simple cleaning. We help you choose a thickness and grade that suits the area.',
+      },
+      {
+        q: 'Can PVC panels be fixed on a ceiling?',
+        a: 'Yes. PVC ceilings are light, quick to install and popular for balconies, bathrooms and shops.',
+      },
+    ],
+    related: ['louvers', 'false-ceiling', 'wallpaper'],
+  },
+  {
+    slug: 'louvers',
+    title: 'Wall Louvers & Fluted Panels',
+    icon: 'Columns3',
+    galleryCategory: 'louvers',
+    image: '/assets/services/louvers.jpg',
+    imageAlt: 'Bed-back wall with fluted panels and LED backlighting',
+    summary:
+      'Vertical louvers and fluted panels for TV walls, bed-backs, partitions and entrance features.',
+    metaTitle: 'Wall Louvers & Fluted Panels in Gurugram, Delhi NCR & Noida',
+    metaDescription:
+      'Wall louver and fluted panel installation in Gurugram, Delhi NCR and Noida: WPC, PVC and wooden louvers for TV units, bed-back walls, partitions and offices.',
+    intro: [
+      'Louvers and fluted panels add strong vertical lines and texture, making a wall look taller and more premium. They work beautifully behind TVs and beds, around pillars and as room dividers.',
+      'We install WPC, PVC and wood-finish louvers in a range of colours, and can combine them with profile lights, mirrors or moulding for a complete feature wall.',
+    ],
+    workTypes: [
+      'TV unit and bed-back louver walls',
+      'WPC and PVC fluted panels',
+      'Wood-finish and charcoal louvers',
+      'Louver partitions and room dividers',
+      'Pillar and column cladding',
+      'Louvers with LED profile lighting',
+    ],
+    requirements: [
+      'Wall or area size',
+      'Colour and finish you prefer',
+      'Whether you want lighting integrated',
+      'Photos of the current wall',
+    ],
+    faqs: [
+      {
+        q: 'What is the difference between WPC and PVC louvers?',
+        a: 'WPC (wood-plastic composite) louvers are thicker and feel more like wood; PVC louvers are lighter and more economical. Both resist moisture and termites.',
+      },
+      {
+        q: 'Can louvers be fixed on a wall with switchboards?',
+        a: 'Yes. Switchboards and sockets are cut out neatly or brought forward so they sit flush with the panels.',
+      },
+      {
+        q: 'Do louvers need polishing?',
+        a: 'No. WPC and PVC louvers come pre-finished and only need occasional dusting.',
+      },
+    ],
+    related: ['pvc-panels', 'moulding-work', 'glass-work'],
+  },
+  {
+    slug: 'wallpaper',
+    title: 'Wallpaper Installation',
+    icon: 'Wallpaper',
+    galleryCategory: 'wallpaper',
+    image: '/assets/services/wallpaper.jpg',
+    imageAlt: "Kids' bedroom with arched jungle wallpaper and backlit headboard",
+    summary:
+      'Designer, textured and customised wallpapers installed with clean joints and a smooth finish.',
+    metaTitle: 'Wallpaper Installation in Gurugram, Delhi NCR & Noida',
+    metaDescription:
+      'Wallpaper installation in Gurugram, Delhi NCR and Noida: designer, textured, 3D and customised photo wallpapers for bedrooms, living rooms, kids’ rooms and offices.',
+    intro: [
+      'Wallpaper is one of the fastest ways to change the mood of a room. From subtle textures to bold prints and custom murals, the right wallpaper creates a feature wall in a day.',
+      'We prepare the wall properly, match patterns at every joint and trim edges cleanly around windows, switches and skirting, so the finish looks seamless.',
+    ],
+    workTypes: [
+      'Designer and textured wallpapers',
+      'Customised photo and mural wallpapers',
+      "Kids' room theme wallpapers",
+      'Wallpaper inside moulding frames',
+      'Office and reception feature walls',
+      'Wall preparation and old wallpaper removal',
+    ],
+    requirements: [
+      'Rooms and wall sizes',
+      'Design, pattern or theme you like',
+      'Condition of the wall (any damp or cracks)',
+      'Whether you need help choosing a design',
+    ],
+    faqs: [
+      {
+        q: 'Will wallpaper peel off over time?',
+        a: 'On a dry, properly prepared wall with the right adhesive, wallpaper stays in place for years. We check the wall for damp before installing.',
+      },
+      {
+        q: 'Can I get a customised wallpaper?',
+        a: 'Yes. Custom prints can be made to your wall size, with your chosen design, photo or theme.',
+      },
+      {
+        q: 'Can wallpaper be cleaned?',
+        a: 'Most modern wallpapers are washable or wipeable. We tell you how to care for the type you choose.',
+      },
+    ],
+    related: ['moulding-work', 'pvc-panels', 'painting-waterproofing'],
+  },
+  {
+    slug: 'glass-work',
+    title: 'Glass & Mirror Work',
+    icon: 'GlassWater',
+    galleryCategory: 'glass',
+    image: '/assets/services/glass-work.jpg',
+    imageAlt: 'Decorative wall with mirror inserts and glass detailing',
+    summary:
+      'Glass partitions, shower enclosures, mirror walls and decorative glass for homes and offices.',
+    metaTitle: 'Glass Partitions & Mirror Work in Gurugram, Delhi NCR & Noida',
+    metaDescription:
+      'Glass and mirror work in Gurugram, Delhi NCR and Noida: toughened glass partitions, shower enclosures, mirror walls, glass doors and decorative glass for homes and offices.',
+    intro: [
+      'Glass makes spaces feel open and bright. We install toughened glass partitions, shower enclosures and frameless doors, along with mirror walls and decorative glass features.',
+      'Every piece is measured on site and fixed with suitable hardware and sealants, so it is safe, aligned and easy to maintain.',
+    ],
+    workTypes: [
+      'Toughened glass office partitions',
+      'Bathroom shower enclosures',
+      'Frameless glass doors',
+      'Mirror walls and designer mirrors',
+      'Bevelled and diamond-pattern mirror features',
+      'Frosted, tinted and printed glass',
+    ],
+    requirements: [
+      'Location and approximate size of the glass work',
+      'Type of glass or mirror you have in mind',
+      'Photos of the area',
+      'Whether doors or openings are needed',
+    ],
+    faqs: [
+      {
+        q: 'Do you use toughened glass?',
+        a: 'Yes. Partitions, doors and shower enclosures use toughened safety glass of a suitable thickness.',
+      },
+      {
+        q: 'Can you make a mirror wall in a living room?',
+        a: 'Yes. Mirror walls and diamond-pattern mirror features are cut to size and fixed securely to the wall.',
+      },
+      {
+        q: 'Is glass work suitable for offices?',
+        a: 'Glass partitions are very popular in offices because they divide space while keeping it bright and open.',
+      },
+    ],
+    related: ['louvers', 'kitchen-bathroom-renovation', 'commercial-improvement'],
+  },
+  {
+    slug: 'false-ceiling',
+    title: 'False Ceiling',
+    icon: 'Layers',
+    galleryCategory: 'false-ceiling',
+    image: '/assets/services/false-ceiling.jpg',
+    imageAlt: 'Gypsum false ceiling with cove lighting in a modern living room',
+    summary:
+      'Gypsum, POP and PVC false ceilings with cove, profile and spot lighting that complete a room.',
+    metaTitle: 'False Ceiling Design & Installation in Gurugram, Delhi NCR & Noida',
+    metaDescription:
+      'False ceiling installation in Gurugram, Delhi NCR and Noida: gypsum and POP ceilings, cove and profile lighting, for homes and offices.',
+    intro: [
+      'A well-designed false ceiling hides wiring and ducts, makes room for lighting and changes how a room feels. We build gypsum and POP ceilings with neat joints and level surfaces.',
+      'We coordinate the ceiling layout with your lighting plan and AC positions so that cut-outs, coves and access panels sit where they should.',
+    ],
+    workTypes: [
+      'Gypsum board false ceilings',
+      'POP ceilings and cornices',
+      'Cove and profile lighting provisions',
+      'Grid ceilings for offices',
+      'PVC and wooden ceiling panels',
+      'Access panels for AC and services',
+    ],
+    requirements: [
+      'Rooms and approximate ceiling areas',
+      'Lighting and AC plans, if decided',
+      'Design references you like',
+      'Ceiling height of the rooms',
+    ],
+    faqs: [
+      {
+        q: 'Gypsum or POP: which is better?',
+        a: 'Both have their uses. Gypsum boards are faster to install and give a uniform finish; POP allows more freeform detailing. We can explain which suits your design.',
+      },
+      {
+        q: 'Will a false ceiling reduce room height?',
+        a: 'Yes, by the depth of the ceiling. Designs can keep this to a minimum, so we look at your room height before suggesting a layout.',
+      },
+      {
+        q: 'Can lights be added later?',
+        a: 'It is far easier to plan the lighting before the ceiling is closed, so we recommend deciding positions during design.',
+      },
+    ],
+    related: ['pvc-panels', 'louvers', 'electrical-plumbing'],
+  },
+  {
+    slug: 'wooden-flooring',
+    title: 'Wooden Flooring',
+    icon: 'Rows3',
+    galleryCategory: 'flooring',
+    image: '/assets/ideas/flooring/wooden-flooring-01.jpg',
+    imageAlt: 'Warm laminate wooden flooring by a garden door',
+    summary:
+      'Laminate, engineered and SPC wooden flooring that brings warmth to bedrooms, living rooms and offices.',
+    metaTitle: 'Wooden Flooring in Gurugram, Delhi NCR & Noida',
+    metaDescription:
+      'Wooden flooring installation in Gurugram, Delhi NCR and Noida: laminate, engineered wood and SPC flooring with underlay, skirting and finishing for homes and offices.',
+    intro: [
+      'Wooden flooring adds warmth and comfort underfoot, and modern laminate and SPC options are easy to maintain. It can usually be laid over the existing floor, with little dust or breakage.',
+      'We level the base, lay a suitable underlay, install the planks with expansion gaps and finish the edges with matching skirting and profiles.',
+    ],
+    workTypes: [
+      'Laminate wooden flooring',
+      'Engineered wood flooring',
+      'SPC and vinyl plank flooring',
+      'Installation over existing tiles or marble',
+      'Matching skirting and threshold profiles',
+      'Wooden deck flooring for balconies',
+    ],
+    requirements: [
+      'Rooms and approximate floor area',
+      'Current floor type and condition',
+      'Preferred shade and finish',
+      'Whether the area gets water exposure',
+    ],
+    faqs: [
+      {
+        q: 'Can wooden flooring be laid over existing tiles?',
+        a: 'In most cases, yes, as long as the existing floor is level and firm. We check the floor before suggesting this.',
+      },
+      {
+        q: 'Laminate or SPC: which should I choose?',
+        a: 'Laminate gives a natural wood feel for dry rooms; SPC is fully water-resistant and suits kitchens and high-traffic areas. We help you decide based on the room.',
+      },
+      {
+        q: 'How long does installation take?',
+        a: 'A typical room can be completed in a day. Larger homes take a few days.',
+      },
+    ],
+    related: ['flooring-tiling', 'louvers', 'home-renovation'],
   },
   {
     slug: 'flooring-tiling',
     title: 'Flooring, Tiling & Marble Work',
     icon: 'Grid3x3',
     galleryCategory: 'flooring',
-    image: '/assets/services/flooring-tiling.svg',
+    image: '/assets/ideas/renovation/bathroom-01.jpg',
     imageAlt: 'Polished marble floor with precise joints in a living area',
     summary:
       'Precise installation of tiles, marble, granite and stone, plus polishing and floor restoration.',
-    metaTitle: 'Flooring, Tiling & Marble Work in Gurugram',
+    metaTitle: 'Flooring, Tiling & Marble Work in Gurugram, Delhi NCR & Noida',
     metaDescription:
-      'Flooring and tiling services in Gurugram: vitrified tiles, marble, granite, stone laying and marble polishing for homes and commercial spaces.',
+      'Flooring and tiling services in Gurugram, Delhi NCR and Noida: vitrified tiles, marble, granite, stone laying and marble polishing for homes and commercial spaces.',
     intro: [
       'Floors take more wear than any other surface in a building. Good installation depends on accurate levels, proper bedding and neat joints. Those details decide how the floor looks and how long it lasts.',
       'We lay and finish a wide range of materials and help you weigh appearance, maintenance and use when choosing between them.',
@@ -282,7 +466,7 @@ const services = [
         a: 'It depends on your budget, the look you want, maintenance and where the floor is. We can explain the trade-offs during the consultation.',
       },
     ],
-    related: ['home-renovation', 'kitchen-bathroom-renovation', 'commercial-improvement'],
+    related: ['wooden-flooring', 'home-renovation', 'kitchen-bathroom-renovation'],
   },
   {
     slug: 'painting-waterproofing',
@@ -293,12 +477,12 @@ const services = [
     imageAlt: 'Freshly painted exterior wall with smooth plaster finish',
     summary:
       'Surface preparation, plastering, interior and exterior painting, and waterproofing against seepage.',
-    metaTitle: 'Painting, Plastering & Waterproofing in Gurugram',
+    metaTitle: 'Painting, Plastering & Waterproofing in Gurugram, Delhi NCR & Noida',
     metaDescription:
-      'Painting, plastering and waterproofing services in Gurugram: interior and exterior painting, putty, terrace and wall waterproofing, and seepage treatment.',
+      'Painting, plastering and waterproofing services in Gurugram, Delhi NCR and Noida: interior and exterior painting, putty, terrace and wall waterproofing, and seepage treatment.',
     intro: [
       'A paint finish is only as good as the surface under it. We prepare walls properly, repairing cracks, applying plaster and putty where needed and treating damp, before the paint goes on.',
-      'Gurugram’s monsoon and summer heat are hard on terraces, external walls and wet areas. Where waterproofing is needed, we identify the likely source of seepage before choosing a treatment.',
+      'The monsoon and summer heat in Delhi NCR are hard on terraces, external walls and wet areas. Where waterproofing is needed, we identify the likely source of seepage before choosing a treatment.',
     ],
     workTypes: [
       'Interior wall and ceiling painting',
@@ -328,53 +512,53 @@ const services = [
         a: 'We discuss covering and moving furniture during planning so your belongings are protected.',
       },
     ],
-    related: ['civil-construction', 'interior-finishing', 'false-ceiling'],
+    related: ['moulding-work', 'wallpaper', 'false-ceiling'],
   },
   {
-    slug: 'false-ceiling',
-    title: 'False Ceiling & Wall Finishing',
-    icon: 'Layers',
-    galleryCategory: 'interiors',
-    image: '/assets/services/false-ceiling.jpg',
-    imageAlt: 'Gypsum false ceiling with cove lighting in a modern living room',
+    slug: 'kitchen-bathroom-renovation',
+    title: 'Kitchen & Bathroom Renovation',
+    icon: 'Bath',
+    galleryCategory: 'renovation',
+    image: '/assets/ideas/renovation/kitchen-01.jpg',
+    imageAlt: 'Renovated bathroom with large-format wall tiles and a glass shower partition',
     summary:
-      'Gypsum and POP false ceilings, cove lighting and decorative wall finishes that complete a room.',
-    metaTitle: 'False Ceiling & Wall Finishing in Gurugram',
+      'Kitchens and bathrooms rebuilt with proper waterproofing, plumbing and durable finishes.',
+    metaTitle: 'Kitchen & Bathroom Renovation in Gurugram, Delhi NCR & Noida',
     metaDescription:
-      'False ceiling installation in Gurugram: gypsum and POP ceilings, cove and profile lighting, and decorative wall finishes for homes and offices.',
+      'Kitchen and bathroom renovation in Gurugram, Delhi NCR and Noida: waterproofing, plumbing, tiling, sanitaryware and modular kitchen fit-outs. Discuss your project with us.',
     intro: [
-      'A well-designed false ceiling hides wiring and ducts, makes room for lighting and changes how a room feels. We build gypsum and POP ceilings with neat joints and level surfaces.',
-      'We coordinate the ceiling layout with your lighting plan and AC positions so that cut-outs, coves and access panels sit where they should.',
+      'Kitchens and bathrooms are the most-used and most technical rooms in a home. A good renovation gets the parts you cannot see right first: plumbing lines, slopes, drainage and waterproofing. Only then come the tiles and fittings.',
+      'We plan the layout with you, including the positions of fixtures, outlets and storage, and then complete the plumbing, electrical, tiling and finishing work in the right order.',
     ],
     workTypes: [
-      'Gypsum board false ceilings',
-      'POP ceilings and cornices',
-      'Cove and profile lighting provisions',
-      'Grid ceilings for offices',
-      'Wall paneling and textures',
-      'Access panels for AC and services',
+      'Complete bathroom rebuilds',
+      'Bathroom waterproofing and leak repair',
+      'Wall and floor tiling',
+      'Sanitaryware and CP fitting installation',
+      'Kitchen platform, sink and backsplash work',
+      'Modular kitchen installation support',
     ],
     requirements: [
-      'Rooms and approximate ceiling areas',
-      'Lighting and AC plans, if decided',
-      'Design references you like',
-      'Ceiling height of the rooms',
+      'Number of kitchens / bathrooms and approximate sizes',
+      'Any existing leakage or seepage issues',
+      'Preferred tiles, fittings or brands',
+      'Photos of the current space, if convenient',
     ],
     faqs: [
       {
-        q: 'Gypsum or POP: which is better?',
-        a: 'Both have their uses. Gypsum boards are faster to install and give a uniform finish; POP allows more freeform detailing. We can explain which suits your design.',
+        q: 'Why is waterproofing important in bathroom renovation?',
+        a: 'Without proper waterproofing, water can seep into walls and into ceilings below. We treat floors and wet-wall areas before tiling.',
       },
       {
-        q: 'Will a false ceiling reduce room height?',
-        a: 'Yes, by the depth of the ceiling. Designs can keep this to a minimum, so we look at your room height before suggesting a layout.',
+        q: 'Can I reuse my existing fittings?',
+        a: 'Fittings in good condition can often be reused. We will tell you honestly if something is better replaced.',
       },
       {
-        q: 'Can lights be added later?',
-        a: 'It is far easier to plan the lighting before the ceiling is closed, so we recommend deciding positions during design.',
+        q: 'Can you change the bathroom layout?',
+        a: 'Layout changes are often possible but depend on drainage positions and the floor below. We assess this during the site visit.',
       },
     ],
-    related: ['interior-finishing', 'electrical-plumbing', 'painting-waterproofing'],
+    related: ['glass-work', 'pvc-panels', 'electrical-plumbing'],
   },
   {
     slug: 'electrical-plumbing',
@@ -385,11 +569,11 @@ const services = [
     imageAlt: 'Concealed conduit and plumbing lines installed before plastering',
     summary:
       'Concealed wiring, distribution boards, water supply and drainage lines, installed neatly and safely.',
-    metaTitle: 'Electrical & Plumbing Work in Gurugram',
+    metaTitle: 'Electrical & Plumbing Work in Gurugram, Delhi NCR & Noida',
     metaDescription:
-      'Electrical and plumbing services in Gurugram for new construction and renovation: concealed wiring, DB upgrades, water supply, drainage and fixture installation.',
+      'Electrical and plumbing services in Gurugram, Delhi NCR and Noida for renovation and interior projects: concealed wiring, DB upgrades, water supply, drainage and fixture installation.',
     intro: [
-      'Electrical and plumbing systems are hidden in walls and floors, so mistakes are expensive to fix later. We plan routes, points and loads carefully during construction or renovation.',
+      'Electrical and plumbing systems are hidden in walls and floors, so mistakes are expensive to fix later. We plan routes, points and loads carefully during renovation or renovation.',
       'From new concealed installations to replacing old lines in existing homes, we try to make the systems both safe and easy to maintain.',
     ],
     workTypes: [
@@ -420,23 +604,23 @@ const services = [
         a: 'Yes. We go through switch, socket and light positions with you room by room before conduits are laid.',
       },
     ],
-    related: ['kitchen-bathroom-renovation', 'home-construction', 'false-ceiling'],
+    related: ['kitchen-bathroom-renovation', 'false-ceiling', 'home-renovation'],
   },
   {
     slug: 'commercial-improvement',
-    title: 'Commercial Property Improvement',
+    title: 'Office & Shop Interiors',
     icon: 'Building2',
-    galleryCategory: 'construction',
+    galleryCategory: 'interiors',
     image: '/assets/services/commercial-improvement.jpg',
     imageAlt: 'Renovated commercial office space with glass partitions and ceiling grid',
     summary:
       'Fit-outs, repairs and upgrades for shops, offices and commercial buildings, planned around your business.',
-    metaTitle: 'Commercial Property Improvement in Gurugram',
+    metaTitle: 'Office & Shop Interiors in Gurugram, Delhi NCR & Noida',
     metaDescription:
-      'Commercial property improvement in Gurugram: office and shop fit-outs, civil repairs, flooring, ceilings, painting and services upgrades. Request a consultation.',
+      'Office and shop interiors in Gurugram, Delhi NCR and Noida: fit-outs, glass partitions, false ceilings, panelling, flooring and painting. Request a consultation.',
     intro: [
       'Commercial spaces need work that looks professional, holds up to heavy use and causes as little disruption to business as possible. We plan the scope, sequence and working hours around your operations.',
-      'From a single shopfront refresh to upgrading a whole floor, we bring together the civil, finishing and services trades under one plan.',
+      'From a single shopfront refresh to upgrading a whole floor, we bring together the interior, finishing and services trades under one plan.',
     ],
     workTypes: [
       'Office and shop fit-outs',
@@ -459,14 +643,14 @@ const services = [
       },
       {
         q: 'Do you handle multi-trade fit-outs?',
-        a: 'Yes. We coordinate civil, ceiling, flooring, painting, electrical and plumbing work under a single scope.',
+        a: 'Yes. We coordinate glass, ceiling, panelling, flooring, painting, electrical and plumbing work under a single scope.',
       },
       {
         q: 'Can you work in occupied commercial buildings?',
         a: 'Yes, with planning for access, dust control and debris removal in line with building management requirements.',
       },
     ],
-    related: ['civil-construction', 'false-ceiling', 'flooring-tiling'],
+    related: ['glass-work', 'false-ceiling', 'louvers'],
   },
 ];
 

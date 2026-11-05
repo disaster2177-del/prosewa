@@ -44,10 +44,10 @@ export default function SEO({ title, description, path = '/', image, jsonLd = []
 export const businessSchema = () => {
   const schema = {
     '@context': 'https://schema.org',
-    '@type': 'GeneralContractor',
+    '@type': 'HomeAndConstructionBusiness',
     name: siteConfig.brandName,
     description:
-      'Home improvement, civil construction, renovation and finishing services in Gurugram, Haryana.',
+      'Home interiors, renovation and finishing services in Gurugram, Delhi NCR and Noida: wall moulding, PVC panels, louvers, wallpaper, glass work, false ceilings and wooden flooring.',
     url: siteConfig.siteUrl,
     image: absoluteUrl(siteConfig.ogImage),
     areaServed: siteConfig.areasServed.map((name) => ({ '@type': 'Place', name })),
@@ -60,6 +60,10 @@ export const businessSchema = () => {
       ...(siteConfig.postalCode && { postalCode: siteConfig.postalCode }),
     },
   };
+  if (siteConfig.latitude && siteConfig.longitude) {
+    schema.geo = { '@type': 'GeoCoordinates', latitude: siteConfig.latitude, longitude: siteConfig.longitude };
+  }
+  if (siteConfig.mapUrl) schema.hasMap = siteConfig.mapUrl;
   if (hasPhone) schema.telephone = siteConfig.phoneE164;
   if (hasEmail) schema.email = siteConfig.email;
   if (siteConfig.socialLinks.length) schema.sameAs = siteConfig.socialLinks.map((s) => s.url);

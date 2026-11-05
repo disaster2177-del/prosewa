@@ -1,6 +1,6 @@
-# PROSEWA: Home Improvement & Civil Construction Website (Gurugram)
+# PROSEWA: Home Interiors & Renovation Website (Gurugram, Delhi NCR & Noida)
 
-A responsive React.js (Vite) website for a civil construction, renovation and home-improvement business in Gurugram, Haryana.
+A responsive React.js (Vite) website for a home interiors, renovation and finishing business in Gurugram, Delhi NCR and Noida.
 
 - No login, signup or dashboard
 - 10 individual service pages (`/services/<slug>`), each with its own content, FAQs, related projects and consultation CTA

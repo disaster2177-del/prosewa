@@ -23,14 +23,14 @@ export default function Services() {
   return (
     <>
       <SEO
-        title="Construction & Home Improvement Services in Gurugram"
-        description="Explore our services in Gurugram: civil construction, home construction, renovation, interiors, kitchen and bathroom work, flooring, painting, false ceilings, electrical and plumbing."
+        title="Home Interior & Renovation Services in Gurugram, Delhi NCR & Noida"
+        description="Explore our services in Gurugram: wall moulding, PVC panels, louvers, wallpaper, glass work, false ceilings, wooden flooring, painting, renovation, kitchens and bathrooms."
         path="/services"
         jsonLd={[breadcrumbSchema(crumbs), itemList]}
       />
       <PageHeader
         title="Our Services"
-        lead="Civil, construction, renovation and finishing services for homes and commercial properties in Gurugram."
+        lead="Interior, renovation and finishing services for homes, offices and shops in Gurugram, Delhi NCR and Noida."
         breadcrumbs={crumbs}
       />
       <section className="section">

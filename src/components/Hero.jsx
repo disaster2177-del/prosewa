@@ -5,8 +5,8 @@ import { useParallax } from '../lib/motion.js';
 
 // Headline split into words for the staggered reveal. `em: true` renders that word in italic terracotta.
 const HEADLINE = [
-  { w: 'Professional' }, { w: 'Home' }, { w: 'Improvement' }, { w: '&' },
-  { w: 'Civil', em: true }, { w: 'Construction', em: true }, { w: 'in' }, { w: 'Gurugram' },
+  { w: 'Premium' }, { w: 'Home' }, { w: 'Interiors' }, { w: '&' },
+  { w: 'Renovation', em: true }, { w: 'in' }, { w: 'Gurugram,' }, { w: 'Delhi' }, { w: 'NCR' }, { w: '&' }, { w: 'Noida' },
 ];
 
 export default function Hero() {
@@ -21,9 +21,9 @@ export default function Hero() {
 
       <div className="container hero-content">
         <p className="eyebrow eyebrow-light hero-fade" style={{ '--d': '0.2s' }}>
-          {siteConfig.city}, {siteConfig.region}
+          Gurugram · Delhi NCR · Noida
         </p>
-        <h1 id="hero-title" aria-label="Professional Home Improvement & Civil Construction in Gurugram">
+        <h1 id="hero-title" aria-label="Premium Home Interiors & Renovation in Gurugram, Delhi NCR & Noida">
           {HEADLINE.map((item, i) => (
             <span className="hero-word" key={i} aria-hidden="true">
               <span style={{ '--i': i }}>{item.em ? <em>{item.w}</em> : item.w}</span>
@@ -32,9 +32,9 @@ export default function Hero() {
           ))}
         </h1>
         <p className="hero-lead hero-fade" style={{ '--d': '1s' }}>
-          From civil construction and home renovation to finishing and property improvements, we help
-          transform your space with thoughtful planning, quality workmanship, and dependable project
-          execution.
+          From wall moulding, PVC panels, louvers and wallpaper to glass work, false ceilings and wooden
+          flooring, we transform homes and offices with thoughtful design, quality workmanship and
+          on-time execution.
         </p>
         <div className="hero-actions hero-fade" style={{ '--d': '1.15s' }}>
           <Link to="/consultation" className="btn btn-primary btn-lg">
