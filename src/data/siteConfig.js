@@ -76,7 +76,18 @@ const siteConfig = {
 
   // Genuine customer testimonials only. The section is hidden while this is empty.
   // { name: 'Customer name', location: 'Sector 57, Gurugram', quote: '...', service: 'Home Renovation' }
-  testimonials: [],
+  // 5-star reviews from verified customers (copied from the review screenshots in Drive).
+  testimonials: [
+    { name: 'Verified customer', date: 'Mar 2026', service: 'Painting', rating: 5, quote: "Vishal and his team are true professionals. They just completed a full-house painting project for me, and I am beyond impressed. Vishal’s ability to listen to the client’s vision while offering expert recommendations. The crew, Karan and others, was efficient, respectful, and the quality of work is top-tier. I highly recommend them for any high-end residential work." },
+    { name: 'Verified customer', date: 'Mar 2026', service: '', rating: 5, quote: "Vishal is thorough professional, soft spoken, takes ownership. I am glad I took service from him. Highly recommended." },
+    { name: 'Verified customer', date: 'Sep 2024', service: 'Painting', rating: 5, quote: "Vishal and his team was very professional. They did the job very well. There is no spot of paint left. Just amazing work. Excellent service and most importantly their behaviour was top notch, very polite and respectful." },
+    { name: 'Verified customer', date: 'Apr 2024', service: '', rating: 5, quote: "Vishal is dignified and very professional in terms of dealing with the work from the beginning to an end. Explained everything diligently and supported to get completed the job nicely." },
+    { name: 'Verified customer', date: 'May 2021', service: 'Wall design', rating: 5, quote: "Vishal did a great work. He made the lifeless wall living. The execution of my taste and preference is seen in his work. We are extremely happy and satisfied with the work." },
+    { name: 'Verified customer', date: 'Jun 2021', service: 'Painting & repairs', rating: 5, quote: "Vishal Lakher did an excellent job with his team of painting and repairing some rooms. Polite, punctual, flexible where requested, would fully recommend his services to friends. 5+ star work. Well done." },
+    { name: 'Verified customer', date: 'Oct 2021', service: '', rating: 5, quote: "Vishal as supervisor has been especially good with very good followup and focus on getting work done as per plan." },
+    { name: 'Verified customer', date: 'Oct 2024', service: 'Home painting', rating: 5, quote: "Mr. Vishal was very good in nature and cooperation, under his guidance, his team done the good home painting job." },
+    { name: 'Verified customer', date: 'Mar 2021', service: '', rating: 5, quote: "Vishal and his team did an amazing job. Very professional and responsible attitude and on time completion." },
+  ],
 
   // Default social-share image (1200×630 recommended).
   ogImage: '/assets/og/og-default.jpg',

@@ -561,24 +561,70 @@ const services = [
     related: ['glass-work', 'pvc-panels', 'electrical-plumbing'],
   },
   {
+    slug: 'lighting',
+    title: 'Lighting & Facade Lighting',
+    icon: 'Lightbulb',
+    galleryCategory: 'lighting',
+    image: '/assets/services/lighting.jpg',
+    imageAlt: 'Up-down wall lights washing a boundary wall at dusk',
+    summary:
+      'Cove lights, wall lights, chandeliers and building facade lighting, planned, wired and installed by one team.',
+    metaTitle: 'Lighting & Facade Lighting in Gurugram, Delhi NCR & Noida',
+    metaDescription:
+      'Interior and facade lighting in Gurugram, Delhi NCR and Noida: cove and profile lights, wall and spot lights, chandeliers, boundary-wall lights and building elevation lighting.',
+    intro: [
+      'Good lighting changes how a room or a building looks more than almost anything else. We plan where light should fall, choose the right fittings and colour temperature, and wire everything neatly so it is easy to control.',
+      'Inside the home that means cove lights in false ceilings, wall lights, spot and track lights and chandeliers. Outside, we light building fronts, balconies, boundary walls and gardens, including festive and decorative lighting.',
+    ],
+    workTypes: [
+      'Cove and LED profile lighting in false ceilings',
+      'Wall lights, spot lights and track lights',
+      'Chandelier and pendant light installation',
+      'Building facade and elevation lighting',
+      'Boundary wall, garden and step lights',
+      'Festive and decorative string lighting',
+    ],
+    requirements: [
+      'Rooms or areas you want lit (inside or outside)',
+      'Photos of the space or the building front',
+      'Look you like: warm, cool, dramatic, soft',
+      'Whether fittings are supplied by you or by us',
+    ],
+    faqs: [
+      {
+        q: 'Can you add lighting to an existing building front?',
+        a: 'Yes. We plan cable routes along the existing elevation and use outdoor-rated fittings and drivers, so the work is neat and safe in rain and heat.',
+      },
+      {
+        q: 'Do you help choose the lights?',
+        a: 'Yes. We suggest fittings, wattage and colour temperature for each area and can supply them, or install fittings you have already bought.',
+      },
+      {
+        q: 'Can lights be put on timers or separate switches?',
+        a: 'Yes. Facade and garden lights can run on timers or separate circuits, and indoor lighting can be split into scenes on separate switches or dimmers.',
+      },
+    ],
+    related: ['false-ceiling', 'electrical-plumbing', 'moulding-work'],
+  },
+  {
     slug: 'electrical-plumbing',
     title: 'Electrical & Plumbing Work',
     icon: 'Plug',
-    galleryCategory: 'renovation',
-    image: '/assets/services/electrical-plumbing.svg',
-    imageAlt: 'Concealed conduit and plumbing lines installed before plastering',
+    galleryCategory: 'electrical',
+    image: '/assets/services/electrical-plumbing.jpg',
+    imageAlt: 'Neatly wired distribution board with MCBs installed by our team',
     summary:
       'Concealed wiring, distribution boards, water supply and drainage lines, installed neatly and safely.',
     metaTitle: 'Electrical & Plumbing Work in Gurugram, Delhi NCR & Noida',
     metaDescription:
       'Electrical and plumbing services in Gurugram, Delhi NCR and Noida for renovation and interior projects: concealed wiring, DB upgrades, water supply, drainage and fixture installation.',
     intro: [
-      'Electrical and plumbing systems are hidden in walls and floors, so mistakes are expensive to fix later. We plan routes, points and loads carefully during renovation or renovation.',
+      'Electrical and plumbing systems are hidden in walls and floors, so mistakes are expensive to fix later. We plan routes, points and loads carefully before any wall is closed.',
       'From new concealed installations to replacing old lines in existing homes, we try to make the systems both safe and easy to maintain.',
     ],
     workTypes: [
       'Concealed electrical wiring and conduits',
-      'Distribution board and MCB upgrades',
+      'Distribution board, MCB and main panel installation',
       'Switch, socket and lighting points',
       'Water supply lines (CPVC / PPR)',
       'Drainage and sewer line work',
@@ -604,7 +650,7 @@ const services = [
         a: 'Yes. We go through switch, socket and light positions with you room by room before conduits are laid.',
       },
     ],
-    related: ['kitchen-bathroom-renovation', 'false-ceiling', 'home-renovation'],
+    related: ['lighting', 'false-ceiling', 'home-renovation'],
   },
   {
     slug: 'commercial-improvement',

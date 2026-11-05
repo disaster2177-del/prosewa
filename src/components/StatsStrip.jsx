@@ -10,7 +10,7 @@ import { useCountUp } from '../lib/motion.js';
 const STATS = [
   { end: services.length, suffix: '', label: 'Specialised services' },
   { end: 4, suffix: '', label: 'Step clear consultation process' },
-  { end: 1, suffix: '', label: 'Team from structure to finish' },
+  { end: 1, suffix: '', label: 'Team from design to finish' },
   { end: 0, prefix: '₹', suffix: '', label: 'Cost for your first consultation' },
 ];
 

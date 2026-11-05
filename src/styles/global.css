@@ -572,3 +572,8 @@ a.contact-card:hover > svg { transform: scale(1.15) rotate(-8deg); }
 .credits-list { list-style: none; padding: 0; display: grid; gap: 1rem; }
 .credits-list li { display: flex; gap: 1rem; align-items: flex-start; }
 .credits-list img { width: 96px; height: 72px; object-fit: cover; border-radius: var(--radius-sm); flex: none; }
+
+/* Testimonial star ratings */
+.stars { display: inline-flex; gap: 2px; color: #E0A526; vertical-align: middle; }
+.testimonial-card .stars { display: flex; margin-bottom: 0.5rem; }
+.testimonial-summary { text-align: center; margin: -0.5rem 0 2rem; font-weight: 600; display: flex; gap: 0.5rem; justify-content: center; align-items: center; flex-wrap: wrap; }
