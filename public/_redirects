@@ -1,0 +1,2 @@
+# Netlify: send all routes to the React app (keeps /services/... URLs working on refresh)
+/*    /index.html   200

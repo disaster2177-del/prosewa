@@ -1,0 +1,24 @@
+{
+  "name": "prosewa-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "PROSEWA — Professional home improvement & civil construction website for Gurugram, Haryana",
+  "scripts": {
+    "dev": "vite",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "build": "node scripts/generate-sitemap.mjs && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
